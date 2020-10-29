@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+	font-family: "Gill Sans", sans-serif;
+	scroll-behavior:smooth;
+	
+}
+body{
+	background-color:#444252;
+}
+.nav{
+	diplay:inline;
+	vertical-align:middle;
+    list-style:none;
+    margin:5px;
+	
+}
+.nav li{
+
+    display:inline;
+	
+
+}
+.nav a{
+	color:lightgrey;
+	width:30%;
+	display:inline;
+	text-decoration: none;
+	text-align:center;
+    margin:20px;
+	padding:15px;
+	transition:1s;
+	border-bottom: 2px solid transparent; #ça c'est pour éviter de tout décaler en creant une bordure avec nav a:hover donc on la créée mais transparente
+}
+.nav a:hover{
+    color: #49d7e5;
+    border-bottom: 1px solid #49d7e5;
+
+}
+
+header{
+	padding:10px;
+	background-color:#444252;
+	display: flex;
+	flex:1;
+	text-align:center;
+	align-items: center;
+	position: sticky;
+	top:0;
+	box-shadow: 1px 1px 7px black;
+	
+}
+
+.sectdebut{ 
+	text-shadow: 25px 25px 40px black;
+	height: 90vh; 
+	display: flex;
+	justify-content: center;
+	text-align: center; 
+	flex-direction: column;
+	background-size: cover;/**/
+	background-repeat: no-repeat; /*l'image prend toute la taille du background et ne scroll pas*/
+	background-attachment: fixed;/**/
+	font-size: 4vw; 
+	color:white;
+
+}
+
+.sectdebut:first-of-type { 
+	text-transform: uppercase;
+	font-size: 5vw;
+	background: #444252;
+}
+.sectdebut:nth-of-type(3) { 
+	box-shadow: 1px 1px 20px black;
+
+}
+.sectdebut:nth-of-type(2) { 
+	height: 60vh; 
+	background-image: url(font.jpg); 
+	box-shadow: 1px 1px 20px black;
+}
+
+.sectdebut h1{
+		text-shadow: 25px 25px 40px black;
+		transition:all 1.5s;
+}
+
+
+.sectdebut h1:hover{
+	transition:all 1.5s;
+	color:#edfa9a;
+		text-shadow: 5px 7px 1px black;
+	
+}
+
+section{
+	height:10vw;
+}
+
